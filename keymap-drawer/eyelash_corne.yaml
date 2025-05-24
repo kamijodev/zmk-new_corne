@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
@@ -55,7 +56,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: \, s: '|'}
   - '"'
   - {t: '''', s: '"'}
@@ -68,8 +69,8 @@ layers:
   - (
   - )
   - '&'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - BT CLR ALL
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
